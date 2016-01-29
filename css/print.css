@@ -1,0 +1,15 @@
+@media print{
+    *{
+        background: transparent !important;
+        border-color: #000 !important;
+        box-shadow: none !important;
+        color: #000 !important;
+        text-shadow: none !important;
+    }
+    a{
+        text-decoration: underline !important;
+    }
+    a[href]::after{
+        content: '('attr(href)')';
+    }
+}

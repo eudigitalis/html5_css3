@@ -1,0 +1,18 @@
+.button{
+    border: 1px solid #999;
+    height: 26px;
+
+    width: 90px;
+}
+.box{
+    background-color: lightblue;
+    width: 250px;
+}
+.box-with-padding{
+    background-color: limegreen;
+    padding: 5px 15px;
+    width: 250px;
+}
+*{
+    box-sizing: border-box;
+}
